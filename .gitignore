@@ -1,0 +1,28 @@
+# Common
+.DS_Store
+*.swp
+*.log
+.vscode/
+
+# Frontend (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Backend (FastAPI/Python)
+backend/__pycache__/
+backend/.venv/
+backend/.env
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# General patterns
+node_modules/
+__pycache__/
+.venv/
+.env
+dist/
