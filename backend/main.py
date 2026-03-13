@@ -33,7 +33,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://blob-arena.netlify.app"
+        "https://blob-arena-two.vercel.app/"
     ],
     allow_methods=["*"],
     allow_headers=["*"],
